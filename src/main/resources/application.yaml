@@ -3,4 +3,4 @@ ktor:
         modules:
             - com.example.client.ApplicationKt.module
     deployment:
-        port: ${?PORT}
+        port: 8080

@@ -11,7 +11,7 @@ fun Application.configureRouting() {
             call.response.status(HttpStatusCode.OK)
         }
         get("/home") {
-            call.response.status(HttpStatusCode.OK)
+            call.respondText("Welcome to the Restaurant BFF Service!")
             }
         get("/") {
             call.respondRedirect("/home")
