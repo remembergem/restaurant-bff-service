@@ -18,7 +18,7 @@ Showcasing my ability to build backend software in Kotlin, complementing my exis
 - docker push gcr.io/restaurant-bff-service/restaurant-bff-service:latest
 - gcloud run deploy restaurant-bff-service --image gcr.io/restaurant-bff-service/restaurant-bff-service:latest --platform managed
 
-### Live demo: https://restaurant-bff-service-91.europe-west4.run.app
+### Live demo: https://restaurant-bff-service-365004434291.europe-west4.run.app/home
 
 ### Tech Stack
 - Kotlin
